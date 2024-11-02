@@ -36,9 +36,6 @@ typedef enum {
 } steno_mode_t;
 
 bool process_steno(uint16_t keycode, keyrecord_t *record);
-void steno_clear_chord(void);
-bool add_gemini_key_to_chord(uint8_t key);
-void send_steno_chord_gemini(void);
 #ifdef STENO_ENABLE_ALL
 void steno_init(void);
 void steno_set_mode(steno_mode_t mode);

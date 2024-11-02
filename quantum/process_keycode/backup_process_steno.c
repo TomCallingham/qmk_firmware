@@ -43,11 +43,7 @@ static const steno_mode_t mode = STENO_MODE_GEMINI;
 static const steno_mode_t mode = STENO_MODE_BOLT;
 #endif
 
-/* static inline void steno_clear_chord(void) {
-    memset(chord, 0, sizeof(chord));
-} */
-
-inline void steno_clear_chord(void) {
+static inline void steno_clear_chord(void) {
     memset(chord, 0, sizeof(chord));
 }
 
